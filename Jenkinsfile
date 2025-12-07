@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        WEBEX_BOT_TOKEN = credentials('ZGQ3YTdkZDItZDQwOS00ODJhLTljNzUtNTVhMzdkYjdiOTQxNzExYjE4OTUtZjRl_P0A1_29bfee7a-764c-46a3-810a-8db47e4b026a')
-        WEBEX_ROOM_ID   = credentials('Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vM2EwYzM0NzAtY2RkMi0xMWYwLWJlYTUtM2IwOWI0NzdmY2Jh')
+        WEBEX_BOT_TOKEN = credentials('MTczNjY4OGItNWVmMS00MmFjLThkZGQtYTYyM2QzMjdhMmI5Njc2MTVkMzMtMjgx_P0A1_29bfee7a-764c-46a3-810a-8db47e4b026a')
+        WEBEX_ROOM_ID   = credentials('Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vOGFiMGYzYTAtZjE5Zi0xMWVkLTgzZDQtZWJmYTQwYzg5N2Uw')
     }
 
     stages {
