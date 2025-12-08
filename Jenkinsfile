@@ -34,7 +34,7 @@ pipeline {
               https://webexapis.com/v1/messages \
               -H "Authorization: Bearer $WEBEX_BOT_TOKEN" \
               -H "Content-Type: application/json" \
-              -d '{ "roomId": "$WEBEX_ROOM_ID", "text": "✅ Jenkins build SUCCESS for ${env.JOB_NAME} #${env.BUILD_NUMBER}" }'
+              -d '{ "roomId": "$WEBEX_ROOM_ID", "text": "Jenkins build SUCCESS for ${env.JOB_NAME} #${env.BUILD_NUMBER}" }'
             """
         }
         failure {
@@ -43,7 +43,7 @@ pipeline {
               https://webexapis.com/v1/messages \
               -H "Authorization: Bearer $WEBEX_BOT_TOKEN" \
               -H "Content-Type: application/json" \
-              -d '{ "roomId": "$WEBEX_ROOM_ID", "text": "❌ Jenkins build FAILED for ${env.JOB_NAME} #${env.BUILD_NUMBER}" }'
+              -d '{ "roomId": "$WEBEX_ROOM_ID", "text": "Jenkins build FAILED for ${env.JOB_NAME} #${env.BUILD_NUMBER}" }'
             """
             """
         }
