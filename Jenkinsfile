@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        WEBEX_BOT_TOKEN = credentials('WEBEX_BOT_TOKEN')
+        WEBEX_BOT_TOKEN = 'MTczNjY4OGItNWVmMS00MmFjLThkZGQtYTYyM2QzMjdhMmI5Njc2MTVkMzMtMjgx_P0A1_29bfee7a-764c-46a3-810a-8db47e4b026a'
         WEBEX_ROOM_ID = 'Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vOGFiMGYzYTAtZjE5Zi0xMWVkLTgzZDQtZWJmYTQwYzg5N2Uw'
     }
 
